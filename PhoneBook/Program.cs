@@ -195,5 +195,6 @@ namespace PhoneBook
             Console.Write("{0}, {1}, {2}, {3} ", entry.Street, entry.City, entry.State, entry.Zipcode, entry.PhoneNumber);
             Console.Write("{0:(###)-###-####}\n", double.Parse(entry.PhoneNumber));
         }
+
     }
 }
